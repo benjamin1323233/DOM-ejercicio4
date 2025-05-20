@@ -7,12 +7,6 @@ const mes = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","
 const parrafoDia = document.getElementById("dia")
 const parrafoHora = document.getElementById("hora")
 
-/*parrafoDia.textContent =  `${dias[fecha.getDay()]} ${fecha.getDate()} de ${mes[fecha.getMonth()]} del ${fecha.getFullYear()}`
-if(fecha.getHours()<13){
-   parrafoHora.textContent = `${fecha.getHours()}:${fecha.getMinutes()} AM`
-}else{
-    parrafoHora.textContent = `${fecha.getHours()-12}:${fecha.getMinutes()}:${fecha.getSeconds()} PM`
-}*/
 parrafoDia.textContent =  `${dias[fecha.getDay()]} ${fecha.getDate()} de ${mes[fecha.getMonth()]} del ${fecha.getFullYear()}`
 if(fecha.getHours()<13){
    if(fecha.getHours()<10){
